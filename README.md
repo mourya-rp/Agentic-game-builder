@@ -2,17 +2,17 @@
 
 An advanced multi-agent orchestration system that transforms natural language prompts into executable 2D games. Powered by **LangGraph**, **Gemini 1.5 Pro**, and **Streamlit**.
 
-## 📺 Project Demo
-[![Agentic Game Builder Demo](https://img.shields.io/badge/YouTube-Watch%20Demo-red?style=for-the-badge&logo=youtube)](https://drive.google.com/file/d/1Fy9jWvClvOaPW5yToFOGZBt6kc34LYKb/view?usp=sharing)
+## Project Demo
+(https://drive.google.com/file/d/1Fy9jWvClvOaPW5yToFOGZBt6kc34LYKb/view?usp=sharing)
 
 > *Click the badge above to see the agent in action!*
 
 ---
 
-## 🚀 Overview
+## Overview
 The **Agentic Game Builder** is a stateful AI system that handles the full game development lifecycle. Unlike simple chatbots, this system uses a **Directed Acyclic Graph (DAG)** to coordinate specialized AI agents, ensuring that game logic is planned, refined, and validated before a single line of code is written.
 
-### 🏗️ The Multi-Agent Architecture
+### The Multi-Agent Architecture
 The system utilizes a **LangGraph-based state machine** to prevent premature code generation and ensure structural integrity:
 
 * **Requirements Clarification (Inquisitor Node):** Evaluates user prompts for ambiguity. It engages in a feedback loop, asking targeted follow-up questions to define mechanics, layout, and win/loss states.
@@ -21,7 +21,7 @@ The system utilizes a **LangGraph-based state machine** to prevent premature cod
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 * **Orchestration:** LangGraph (Stateful Agent Flows)
 * **LLM:** Gemini 1.5 Pro (via Google Generative AI)
 * **Interface:** Streamlit (Full-stack Web UI)
@@ -30,9 +30,9 @@ The system utilizes a **LangGraph-based state machine** to prevent premature cod
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
-### 🐳 Run with Docker (Recommended)
+###  Run with Docker (Recommended)
 This agent is fully containerized for a "zero-config" setup.
 
 1.  **Environment Configuration:**
@@ -63,3 +63,4 @@ This agent is fully containerized for a "zero-config" setup.
 ##  Future Roadmap
 * **Self-Correction Loop:** Integrating **Playwright** for automated runtime verification. The agent will "test-boot" the game, capture console errors, and auto-heal the code.
 * **RAG Integration:** Utilizing a vector database (ChromaDB) to store player preferences and "memory" for hyper-personalized game design.
+
