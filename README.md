@@ -5,7 +5,6 @@ An advanced multi-agent orchestration system that transforms natural language pr
 ## Project Demo
 (https://drive.google.com/file/d/1Fy9jWvClvOaPW5yToFOGZBt6kc34LYKb/view?usp=sharing)
 
-> *Click the badge above to see the agent in action!*
 
 ---
 
@@ -63,4 +62,5 @@ This agent is fully containerized for a "zero-config" setup.
 ##  Future Roadmap
 * **Self-Correction Loop:** Integrating **Playwright** for automated runtime verification. The agent will "test-boot" the game, capture console errors, and auto-heal the code.
 * **RAG Integration:** Utilizing a vector database (ChromaDB) to store player preferences and "memory" for hyper-personalized game design.
+
 
